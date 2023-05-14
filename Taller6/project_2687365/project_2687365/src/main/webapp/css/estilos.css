@@ -1,0 +1,77 @@
+/* Estilos generales del formulario */
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para los campos de entrada de texto */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el botón de envío */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el mensaje de error en campos requeridos */
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  /* Estilos para el mensaje de error en campos con patrones */
+  input:invalid:focus {
+    border-color: #FF7F7F;
+    box-shadow: 0 0 5px #FF7F7F;
+  }
+  
+  /* Estilos para el mensaje de éxito en campos con patrones */
+  input:valid:focus {
+    border-color: #7FFF7F;
+    box-shadow: 0 0 5px #7FFF7F;
+  }
+
+  /* Estilos para el contenedor del formulario */
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #f8f8f8;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+  
